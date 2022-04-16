@@ -76,9 +76,12 @@ The functionality can be used in Jupyter notebook (meteostat1.ipynb)
 
 - load dependencies (required python modules)
 ![image description](./pics/Screenshot%20from%202022-04-16%2014-07-04.png)
-- execute the cells containing custom function definitions (see Section 2 for the list of functions
+- execute the cells containing custom function definitions (see Section 2 for the list of functions)
+![image description](./pics/Screenshot%20from%202022-04-16%2014-07-38.png)
 - Example 1 – obtaining weather data for a Meteostat station ID
+![image description](./pics/Screenshot%20from%202022-04-16%2014-12-11.png)
 - Example 2 – obtaining weather data for a location defined by latitude and longitude
+![image description](./pics/Screenshot%20from%202022-04-16%2014-18-43.png)
 
 First table above shows the list of weather stations sorted by distance & data availability. 
 
@@ -87,7 +90,7 @@ This is taking into account min_coverage value of 0.9 – e.g. Little Rissington
 Overall, Brize Norton is selected as it is closest to Witney and it has data availability >=90% (it actually has 100% data availability for the given time period)
 
 - Example 3 – obtaining weather data for a location defined by latitude and longitude
-
+![image description](./pics/Screenshot%20from%202022-04-16%2014-27-52.png)
 The code feeds the address details into address2coords() functions and uses OpenStreetMap API to look up the latitude and longitude. The coordinates are then used in Meteostat API.
 
 First table above shows the list of weather stations sorted by distance & data availability. 
@@ -102,12 +105,17 @@ The functionality can be used by running stand-alone python source code (meteoda
 
 For example, the file can be loaded as custom python module (here we are using Spyder IDE). Don’t forget to add the location of the source code file to your IDE’s path manager - e.g. in Spyder:
 
+![image description](./pics/Screenshot%20from%202022-04-16%2014-39-33.png)
+
 The file meteodata.py contains all code, the source code is identical to dependencies and custom functions used in the Jupyter notebook (see section (a)).
 
+![image description](./pics/Screenshot%20from%202022-04-16%2014-38-03.png)
 
 The module needs to be loaded first
 
+![image description](./pics/Screenshot%20from%202022-04-16%2014-42-16.png)
+
 The main function can be then called to retrieve data
 
-
+![image description](./pics/Screenshot%20from%202022-04-16%2014-42-36.png)
 
