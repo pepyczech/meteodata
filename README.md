@@ -75,6 +75,7 @@ An example:
 The functionality can be used in Jupyter notebook (meteostat1.ipynb)
 
 - load dependencies (required python modules)
+![dependencies](pics/Screenshot from 2022-04-16 14-07-04.png)
 - execute the cells containing custom function definitions (see Section 2 for the list of functions
 - Example 1 – obtaining weather data for a Meteostat station ID
 - Example 2 – obtaining weather data for a location defined by latitude and longitude
