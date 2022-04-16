@@ -85,9 +85,9 @@ The functionality can be used in Jupyter notebook (meteostat1.ipynb)
 
 First table above shows the list of weather stations sorted by distance & data availability. 
 
-This is taking into account min_coverage value of 0.9 – e.g. Little Rissington has only 335 days (99.7%) of data available, compared to RAF Fairford with 336 days (100%) but it is rated better since it is closer and 99.7% is above the 90% threshold. Small differences in data completeness is resolved by Meteostat’s interpolation functionality.
+This is taking into account min_coverage value of 0.9 – e.g. Little Rissington has only 335 days (99.7%) of data available, compared to RAF Fairford with 336 days (100%) but L Rissington is rated higher since it is closer to the location and 99.7% is above the 90% threshold. Small differences in data completeness is resolved by Meteostat’s interpolation functionality.
 
-Overall, Brize Norton is selected as it is closest to Witney and it has data availability >=90% (it actually has 100% data availability for the given time period)
+Overall, Brize Norton is selected as most suitable as it is closest to Witney and it has data availability >=90% (it actually has 100% data availability for the given time period)
 
 - Example 3 – obtaining weather data for a location defined by latitude and longitude
 ![image description](./pics/Screenshot%20from%202022-04-16%2014-27-52.png)
@@ -95,9 +95,9 @@ The code feeds the address details into address2coords() functions and uses Open
 
 First table above shows the list of weather stations sorted by distance & data availability. 
 
-This is taking into account min_coverage value of 0.9 – e.g. Little Rissington has only 335 days (99.7%) of data available, compared to RAF Brize Norton with 336 days (100%) but it is rated better since it is closer and 99.7% is above the 90% threshold. 
+This is taking into account min_coverage value of 0.9 – e.g. Little Rissington has only 335 days (99.7%) of data available, compared to RAF Brize Norton with 336 days (100%) but L Rissington is rated higher since it is closer and 99.7% is above the 90% threshold. 
 
-This results in Little Rissington being selected as best weather station, which makes sense as it is much closer to Burford than Brize Norton. Small differences in data completeness is resolved by Meteostat’s interpolation functionality.
+This results in Little Rissington being selected as most suitable weather station, which makes sense as it is much closer to Burford than Brize Norton. Small differences in data completeness is resolved by Meteostat’s interpolation functionality.
 
 # b. Using stand-alone python code
 
